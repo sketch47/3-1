@@ -16,5 +16,7 @@
         <TextBox Height="23" HorizontalAlignment="Left" Margin="12,242,0,0" Name="textBox9" VerticalAlignment="Top" Width="50" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="12,271,0,0" Name="textBox10" VerticalAlignment="Top" Width="50" />
         <Button Content="Больше 25" Height="23" HorizontalAlignment="Left" Margin="368,68,0,0" Name="button2" VerticalAlignment="Top" Width="75" Click="button2_Click" />
+        <Button Content="Сумма больше чес 2 элимент
+                " Height="23" HorizontalAlignment="Left" Margin="368,97,0,0" Name="button3" VerticalAlignment="Top" Width="75" Click="button3_Click" />
     </Grid>
 </Window>
