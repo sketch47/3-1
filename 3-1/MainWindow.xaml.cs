@@ -202,5 +202,31 @@ namespace _3_1
             }
             out1.Text = "Сумма меньше первого и больше последнего = " + Convert.ToString(sum);
         }
+
+        private void button9_Click(object sender, RoutedEventArgs e)
+        {
+            mas[0] = Convert.ToInt32(textBox1.Text);
+            mas[1] = Convert.ToInt32(textBox2.Text);
+            mas[2] = Convert.ToInt32(textBox3.Text);
+            mas[3] = Convert.ToInt32(textBox4.Text);
+            mas[4] = Convert.ToInt32(textBox5.Text);
+            mas[5] = Convert.ToInt32(textBox6.Text);
+            mas[6] = Convert.ToInt32(textBox7.Text);
+            mas[7] = Convert.ToInt32(textBox8.Text);
+            mas[8] = Convert.ToInt32(textBox9.Text);
+            mas[9] = Convert.ToInt32(textBox10.Text);
+            double min = Math.Abs(mas[1]-mas[0]);
+            double element=0 ;
+            for (i = 2; i < 10; i++)
+                if (Math.Abs(mas[1] - mas[i]) < min)
+                {
+                    min = Math.Abs(mas[1] - mas[i]);
+                    element = mas[i];
+                }
+            for (i = 0; i < 10; i++)
+                if (mas[i] == element) str_out += " " + (i+1);
+
+            out1.Text = " " + str_out;
+        }
     }
 }

@@ -26,5 +26,6 @@
         <Button Content="Сумма кратных 3
                 " Height="23" HorizontalAlignment="Left" Margin="368,213,0,0" Name="button7" VerticalAlignment="Top" Width="75" Click="button7_Click" />
         <Button Content="Сумма больше 1 и меньше 10" Height="23" HorizontalAlignment="Left" Margin="368,242,0,0" Name="button8" VerticalAlignment="Top" Width="75" Click="button8_Click" />
+        <Button Content="ABS от 2" Height="23" HorizontalAlignment="Left" Margin="368,272,0,0" Name="button9" VerticalAlignment="Top" Width="75" Click="button9_Click" />
     </Grid>
 </Window>
