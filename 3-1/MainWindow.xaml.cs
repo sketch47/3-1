@@ -22,6 +22,7 @@ namespace _3_1
         double[] mas = new double[10];
         int i;
         int j = 0;
+        double sum = 0;
         public MainWindow()
         {
             
@@ -69,6 +70,28 @@ namespace _3_1
                 out1.Text = "Все элименты <25";
             if(j==1)
             out1.Text = "Первый элимент >25 =" + (i+1);
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            mas[0] = Convert.ToInt32(textBox1.Text);
+            mas[1] = Convert.ToInt32(textBox2.Text);
+            mas[2] = Convert.ToInt32(textBox3.Text);
+            mas[3] = Convert.ToInt32(textBox4.Text);
+            mas[4] = Convert.ToInt32(textBox5.Text);
+            mas[5] = Convert.ToInt32(textBox6.Text);
+            mas[6] = Convert.ToInt32(textBox7.Text);
+            mas[7] = Convert.ToInt32(textBox8.Text);
+            mas[8] = Convert.ToInt32(textBox9.Text);
+            mas[9] = Convert.ToInt32(textBox10.Text);
+
+            for (i = 0; i < 10; i++)
+                sum += mas[i];
+            sum /= 10;
+            if (mas[0] > sum)
+                out1.Text = "Превосходит";
+            else
+                out1.Text = "Не превосходит";
         }
     }
 }
