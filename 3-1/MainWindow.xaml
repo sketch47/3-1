@@ -19,5 +19,6 @@
         <Button Content="1>ср.ариф" Height="23" HorizontalAlignment="Left" Margin="368,123,0,0" Name="button3" VerticalAlignment="Top" Width="75" Click="button3_Click" />
         <Button Content="Знак" Height="23" HorizontalAlignment="Left" Margin="368,162,0,0" Name="button4" VerticalAlignment="Top" Width="75" Click="button4_Click" />
         <Button Content="Колличество положительных эиментов" Height="23" HorizontalAlignment="Left" Margin="368,223,0,0" Name="button5" VerticalAlignment="Top" Width="75" Click="button5_Click" />
+        <Button Content="неотрицательные элименты" Height="23" HorizontalAlignment="Left" Margin="368,268,0,0" Name="button6" VerticalAlignment="Top" Width="75" Click="button6_Click" />
     </Grid>
 </Window>
