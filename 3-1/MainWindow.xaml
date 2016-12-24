@@ -16,10 +16,25 @@
         <TextBox Height="23" HorizontalAlignment="Left" Margin="12,242,0,0" Name="textBox9" VerticalAlignment="Top" Width="50" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="12,271,0,0" Name="textBox10" VerticalAlignment="Top" Width="50" />
         <Button Content="Больше 25" Height="23" HorizontalAlignment="Left" Margin="368,68,0,0" Name="button2" VerticalAlignment="Top" Width="75" Click="button2_Click" />
+<<<<<<< HEAD
         <Button Content="1>ср.ариф" Height="23" HorizontalAlignment="Left" Margin="368,123,0,0" Name="button3" VerticalAlignment="Top" Width="75" Click="button3_Click" />
         <Button Content="Знак" Height="23" HorizontalAlignment="Left" Margin="368,162,0,0" Name="button4" VerticalAlignment="Top" Width="75" Click="button4_Click" />
         <Button Content="Колличество положительных эиментов" Height="23" HorizontalAlignment="Left" Margin="368,223,0,0" Name="button5" VerticalAlignment="Top" Width="75" Click="button5_Click" />
         <Button Content="неотрицательные элименты" Height="23" HorizontalAlignment="Left" Margin="368,268,0,0" Name="button6" VerticalAlignment="Top" Width="75" Click="button6_Click" />
         <Button Content="Сумма меньше 5-го элимента массива" Height="23" HorizontalAlignment="Left" Margin="287,68,0,0" Name="button7" VerticalAlignment="Top" Width="75" Click="button7_Click" />
+=======
+        <Button Content="Сумма больше чес 2 элимент
+                " Height="23" HorizontalAlignment="Left" Margin="368,97,0,0" Name="button3" VerticalAlignment="Top" Width="75" Click="button3_Click" />
+        <Button Content="Больше чем 4-ый
+                " Height="23" HorizontalAlignment="Left" Margin="368,126,0,0" Name="button4" VerticalAlignment="Top" Width="75" Click="button4_Click" />
+        <Button Content="сумма меньше 21" Height="23" HorizontalAlignment="Left" Margin="368,155,0,0" Name="button5" VerticalAlignment="Top" Width="75" Click="button5_Click" />
+        <Button Content="Кратность 5
+                " Height="23" HorizontalAlignment="Left" Margin="368,184,0,0" Name="button6" VerticalAlignment="Top" Width="75" Click="button6_Click" />
+        <Button Content="Сумма кратных 3
+                " Height="23" HorizontalAlignment="Left" Margin="368,213,0,0" Name="button7" VerticalAlignment="Top" Width="75" Click="button7_Click" />
+        <Button Content="Сумма больше 1 и меньше 10" Height="23" HorizontalAlignment="Left" Margin="368,242,0,0" Name="button8" VerticalAlignment="Top" Width="75" Click="button8_Click" />
+        <Button Content="ABS от 2" Height="23" HorizontalAlignment="Left" Margin="368,272,0,0" Name="button9" VerticalAlignment="Top" Width="75" Click="button9_Click" />
+        <Button Content="Кратных 3" Height="23" HorizontalAlignment="Left" Margin="287,39,0,0" Name="button10" VerticalAlignment="Top" Width="75" Click="button10_Click" />
+>>>>>>> refs/remotes/origin/undersubmaster
     </Grid>
 </Window>
