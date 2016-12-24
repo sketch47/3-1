@@ -22,8 +22,13 @@ namespace _3_1
         double[] mas = new double[10];
         int i;
         int j = 0;
+<<<<<<< HEAD
+        int minus = 0, plus = 0;
+        double sum = 0;
+=======
         double sum=0;
         string str_out;
+>>>>>>> refs/remotes/origin/undersubmaster
         public MainWindow()
         {
             
@@ -85,6 +90,16 @@ namespace _3_1
             mas[7] = Convert.ToInt32(textBox8.Text);
             mas[8] = Convert.ToInt32(textBox9.Text);
             mas[9] = Convert.ToInt32(textBox10.Text);
+<<<<<<< HEAD
+
+            for (i = 0; i < 10; i++)
+                sum += mas[i];
+            sum /= 10;
+            if (mas[0] > sum)
+                out1.Text = "Превосходит";
+            else
+                out1.Text = "Не превосходит";
+=======
             sum = mas[0];
             for (i = 2; i <= 9; i++)
             {
@@ -93,6 +108,7 @@ namespace _3_1
                 
             }
             out1.Text = Convert.ToString(sum);
+>>>>>>> refs/remotes/origin/undersubmaster
         }
 
         private void button4_Click(object sender, RoutedEventArgs e)
@@ -107,15 +123,31 @@ namespace _3_1
             mas[7] = Convert.ToInt32(textBox8.Text);
             mas[8] = Convert.ToInt32(textBox9.Text);
             mas[9] = Convert.ToInt32(textBox10.Text);
+<<<<<<< HEAD
+
+           
+            for (i = 1; i < 10; i++) {
+                if (mas[i] * mas[i - 1] < 0)
+                    j++;
+            }
+            
+            out1.Text = "Знак меняеться :" +(j) ;
+          
+=======
             for (i = 0; i < 10; i++)
                 if (mas[i] > mas[3]) j++;
 
             out1.Text ="Элементов больше чем 4-ый элемент ="+ Convert.ToString(j);
+>>>>>>> refs/remotes/origin/undersubmaster
         }
 
         private void button5_Click(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
+            j = 0;
+=======
             sum = 0; i = 0;
+>>>>>>> refs/remotes/origin/undersubmaster
             mas[0] = Convert.ToInt32(textBox1.Text);
             mas[1] = Convert.ToInt32(textBox2.Text);
             mas[2] = Convert.ToInt32(textBox3.Text);
@@ -126,6 +158,12 @@ namespace _3_1
             mas[7] = Convert.ToInt32(textBox8.Text);
             mas[8] = Convert.ToInt32(textBox9.Text);
             mas[9] = Convert.ToInt32(textBox10.Text);
+<<<<<<< HEAD
+
+            for (i = 0; i < 10; i++)
+                if (mas[i] >= 0) j++;
+            out1.Text = "Колличество не отрицательных элиментов =" + (j);
+=======
             while (sum < 21) {
                 sum += mas[i];
                 
@@ -137,6 +175,145 @@ namespace _3_1
             }
             
             out1.Text ="Сумма элиментов меньше 21 = " + Convert.ToString(str_out);
+>>>>>>> refs/remotes/origin/undersubmaster
+        }
+
+        private void button6_Click(object sender, RoutedEventArgs e)
+        {
+<<<<<<< HEAD
+            j = 0;
+=======
+            sum = 0; i = 0;
+>>>>>>> refs/remotes/origin/undersubmaster
+            mas[0] = Convert.ToInt32(textBox1.Text);
+            mas[1] = Convert.ToInt32(textBox2.Text);
+            mas[2] = Convert.ToInt32(textBox3.Text);
+            mas[3] = Convert.ToInt32(textBox4.Text);
+            mas[4] = Convert.ToInt32(textBox5.Text);
+            mas[5] = Convert.ToInt32(textBox6.Text);
+            mas[6] = Convert.ToInt32(textBox7.Text);
+            mas[7] = Convert.ToInt32(textBox8.Text);
+            mas[8] = Convert.ToInt32(textBox9.Text);
+            mas[9] = Convert.ToInt32(textBox10.Text);
+            for (i = 0; i < 10; i++)
+<<<<<<< HEAD
+                if (mas[i] != 0) j++;
+            out1.Text = "Колличество не нулевых элиментов =" + (j);
+=======
+            {
+                if (mas[i] % 5 == 0) mas[i] += 1;
+                str_out += mas[i] + " ";
+            }
+            out1.Text =  Convert.ToString(str_out);
+>>>>>>> refs/remotes/origin/undersubmaster
+        }
+
+        private void button7_Click(object sender, RoutedEventArgs e)
+        {
+<<<<<<< HEAD
+            j = 0; sum = 0; i = 0;
+            string out_str =" ";
+=======
+            sum = 0; i = 0;
+            mas[0] = Convert.ToInt32(textBox1.Text);
+            mas[1] = Convert.ToInt32(textBox2.Text);
+            mas[2] = Convert.ToInt32(textBox3.Text);
+            mas[3] = Convert.ToInt32(textBox4.Text);
+            mas[4] = Convert.ToInt32(textBox5.Text);
+            mas[5] = Convert.ToInt32(textBox6.Text);
+            mas[6] = Convert.ToInt32(textBox7.Text);
+            mas[7] = Convert.ToInt32(textBox8.Text);
+            mas[8] = Convert.ToInt32(textBox9.Text);
+            mas[9] = Convert.ToInt32(textBox10.Text);
+
+            for (i = 0; i < 10; i++) {
+                if (mas[i] % 3 != 0)
+                    sum += mas[i];
+            }
+            out1.Text ="Сумма не кратных 3 = "+ Convert.ToString(sum);
+        }
+
+        private void button8_Click(object sender, RoutedEventArgs e)
+        {
+            sum = 0; i = 0;
+>>>>>>> refs/remotes/origin/undersubmaster
+            mas[0] = Convert.ToInt32(textBox1.Text);
+            mas[1] = Convert.ToInt32(textBox2.Text);
+            mas[2] = Convert.ToInt32(textBox3.Text);
+            mas[3] = Convert.ToInt32(textBox4.Text);
+            mas[4] = Convert.ToInt32(textBox5.Text);
+            mas[5] = Convert.ToInt32(textBox6.Text);
+            mas[6] = Convert.ToInt32(textBox7.Text);
+            mas[7] = Convert.ToInt32(textBox8.Text);
+            mas[8] = Convert.ToInt32(textBox9.Text);
+            mas[9] = Convert.ToInt32(textBox10.Text);
+
+<<<<<<< HEAD
+            while (sum < mas[4])
+            {
+                if (i == 4) i++;
+                
+                sum += mas[i];
+                out_str += " " + (i+1);
+                if (sum >= mas[4]) { sum -= mas[i]; break; }
+                i++;
+              
+            }
+
+            out1.Text = "Сумма меньше пятого элимента =" + (sum);
+=======
+            for (i = 0; i < 10; i++)
+            {
+                if (mas[i] < mas[0] && mas[i] > mas[9])
+                    sum++;
+            }
+            out1.Text = "Сумма меньше первого и больше последнего = " + Convert.ToString(sum);
+        }
+
+        private void button9_Click(object sender, RoutedEventArgs e)
+        {
+            mas[0] = Convert.ToInt32(textBox1.Text);
+            mas[1] = Convert.ToInt32(textBox2.Text);
+            mas[2] = Convert.ToInt32(textBox3.Text);
+            mas[3] = Convert.ToInt32(textBox4.Text);
+            mas[4] = Convert.ToInt32(textBox5.Text);
+            mas[5] = Convert.ToInt32(textBox6.Text);
+            mas[6] = Convert.ToInt32(textBox7.Text);
+            mas[7] = Convert.ToInt32(textBox8.Text);
+            mas[8] = Convert.ToInt32(textBox9.Text);
+            mas[9] = Convert.ToInt32(textBox10.Text);
+            double min = Math.Abs(mas[1]-mas[0]);
+            double element=0 ;
+            for (i = 2; i < 10; i++)
+                if (Math.Abs(mas[1] - mas[i]) < min)
+                {
+                    min = Math.Abs(mas[1] - mas[i]);
+                    element = mas[i];
+                }
+            for (i = 0; i < 10; i++)
+                if (mas[i] == element) str_out += " " + (i+1);
+
+            out1.Text = " " + str_out;
+        }
+
+        private void button10_Click(object sender, RoutedEventArgs e)
+        {
+            j = 0;
+            mas[0] = Convert.ToInt32(textBox1.Text);
+            mas[1] = Convert.ToInt32(textBox2.Text);
+            mas[2] = Convert.ToInt32(textBox3.Text);
+            mas[3] = Convert.ToInt32(textBox4.Text);
+            mas[4] = Convert.ToInt32(textBox5.Text);
+            mas[5] = Convert.ToInt32(textBox6.Text);
+            mas[6] = Convert.ToInt32(textBox7.Text);
+            mas[7] = Convert.ToInt32(textBox8.Text);
+            mas[8] = Convert.ToInt32(textBox9.Text);
+            mas[9] = Convert.ToInt32(textBox10.Text);
+
+            for (i = 0; i < 10; i++)
+                if (mas[i] % 3 == 0) j++;
+            out1.Text = "Колличество элементов кратных 3" + str_out;
+>>>>>>> refs/remotes/origin/undersubmaster
         }
     }
 }
