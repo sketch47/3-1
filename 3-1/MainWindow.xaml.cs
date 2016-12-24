@@ -139,6 +139,7 @@ namespace _3_1
             out1.Text ="Сумма элиментов меньше 21 = " + Convert.ToString(str_out);
         }
 
+
         private void button6_Click(object sender, RoutedEventArgs e)
         {
             sum = 0; i = 0;
@@ -247,5 +248,6 @@ namespace _3_1
                 if (mas[i] % 3 == 0) j++;
             out1.Text = "Колличество элементов кратных 3" + str_out;
         }
+
     }
 }
